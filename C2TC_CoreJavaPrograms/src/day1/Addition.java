@@ -9,7 +9,6 @@ public class Addition {
 	b=Integer.parseInt(args[1]);
 	c=a+b;
 	System.out.println("Addition of "+a+" and "+b+" is " + c);
-
 	}
 
 }
