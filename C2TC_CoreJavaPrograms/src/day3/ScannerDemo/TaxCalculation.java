@@ -1,4 +1,4 @@
-package day3;
+package day3.ScannerDemo;
 
 public class TaxCalculation {
 	public void calculateTax(Person person) {
@@ -16,5 +16,6 @@ public class TaxCalculation {
 				person.setTax((person.getIncome() - 800000) * 30 / 100 + 94000);
 			}
 		}
+	}
 
 }

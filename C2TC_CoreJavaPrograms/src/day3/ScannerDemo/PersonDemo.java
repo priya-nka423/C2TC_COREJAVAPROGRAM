@@ -1,6 +1,4 @@
-package day3;
-
-import java.util.Scanner;
+package day3.ScannerDemo;
 
 public class PersonDemo {
 
@@ -26,12 +24,11 @@ Scanner ob = new Scanner(System.in);
 		System.out.println(person);
 		
 		TaxCalculation calc = new TaxCalculation();
-		calc.calculateTax(person);
+		calc.calculateTax(person); 
 		System.out.println("After calculating tax : ");
 		System.out.println(person);
 
 		ob.close();
-		
 	}
 
 }

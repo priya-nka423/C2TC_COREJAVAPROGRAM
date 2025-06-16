@@ -1,9 +1,7 @@
-package day3;
-
+package day3.day3Constructor;
 import java.util.Scanner;
 
-public class ConstructorDemo
-{
+public class ConstructorDemo {
 	Scanner sc=new Scanner(System.in);
 	String name, city;
 	int id;
@@ -43,5 +41,6 @@ public class ConstructorDemo
 	
 
 }
-}
 	
+
+}
