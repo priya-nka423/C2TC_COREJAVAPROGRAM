@@ -1,10 +1,13 @@
 package day3.ScannerDemo;
 
+import java.util.Scanner;
+
 public class PersonDemo {
 
 	public static void main(String[] args) {
-Scanner ob = new Scanner(System.in);
+           Scanner ob = new Scanner(System.in);
 		
+           
 		String name;
 		System.out.println("Enter Person Name : ");
 		name = ob.next();
