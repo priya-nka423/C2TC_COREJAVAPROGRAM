@@ -8,8 +8,6 @@ public class FinalVariable {
 	final static int Z = 10;
 
 	void change() {
-		x = 30;
-		Y = 200; 
 	}
 
 	@Override
@@ -19,7 +17,6 @@ public class FinalVariable {
 
 	static {
 		Y = 20;
-		Z = 100; // Once intialized can't be reassigned
 		System.out.println("Value of Y: " + Y);
 }
 }

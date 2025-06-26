@@ -13,10 +13,12 @@ public class Operations {
 		return dummyNumber==rev;
 	}
 
+	//check whether string is Palindrome or not?
 	public static boolean isPalindrome(String str)
 	{
 		String rev;
 		rev=new StringBuffer(str).reverse().toString();
 		return str.equals(rev);
 	}
+
 }
