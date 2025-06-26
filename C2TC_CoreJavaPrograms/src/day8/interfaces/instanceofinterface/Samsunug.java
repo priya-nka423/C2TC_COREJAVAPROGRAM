@@ -9,5 +9,4 @@ public class Samsunug implements Phone {
 	public void sms() {
 		System.out.println("Messaging using samsung");
 	}
-
 }
