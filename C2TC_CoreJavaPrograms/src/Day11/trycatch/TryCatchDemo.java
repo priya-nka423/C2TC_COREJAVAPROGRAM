@@ -1,11 +1,12 @@
-package day11.trycatch;
+package Day11.trycatch;
 
 public class TryCatchDemo {
+
 	public static void main(String[] args) {
-		System.out.println("I am in main method");
+		System.out.println("I am in main method"); 
 		int result;
 		
-		result = TryCatchExample.performDivision(12,0);
+		result=TryCatchExample.performDivision(12,0);
 		if (result!=0)
 			System.out.println("Diviosin is "+result);
 		
@@ -20,7 +21,6 @@ public class TryCatchDemo {
 		
 		System.out.println("------------------------------");
 		System.out.println(TryCatchExample.performDivision(12f, 0f));
-	
 	}
 
 }
